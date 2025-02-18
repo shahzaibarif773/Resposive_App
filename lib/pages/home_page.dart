@@ -34,6 +34,7 @@ class _HomePageState extends State<HomePage> {
           ? Drawer(backgroundColor: AppColors.grey, child: DrawerWidget())
           : null,
       appBar: AppBar(
+        iconTheme: IconThemeData(color: Colors.white),
         backgroundColor: AppColors.purple,
         title: AutoSizeText(
           minFontSize: 10,

@@ -164,7 +164,7 @@ class _LoginPageState extends State<LoginPage> {
                           minFontSize: 8,
                           maxFontSize: 14,
                           'Login',
-                          style: TextStyle(fontWeight: FontWeight.bold),
+                          style: TextStyle(fontWeight: FontWeight.bold,color: AppColors.white),
                         ),
                       ],
                     ),
